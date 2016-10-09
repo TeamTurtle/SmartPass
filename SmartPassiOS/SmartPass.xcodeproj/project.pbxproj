@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98D112308305D073A7D20576 /* Pods_SmartPass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 809660D75F2F43E9FF8EF256 /* Pods_SmartPass.framework */; };
+		C3043A181DAA27F90038E472 /* RegistrationSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3043A171DAA27F90038E472 /* RegistrationSuccessViewController.swift */; };
+		C30B340F1DA95A7D00CD315E /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30B340E1DA95A7D00CD315E /* ImageUploader.swift */; };
+		C32D6AE21DA96D4600D400B6 /* PhotoColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32D6AE11DA96D4600D400B6 /* PhotoColor.swift */; };
+		C32D6AE61DA98DC600D400B6 /* CreateEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32D6AE51DA98DC600D400B6 /* CreateEventViewController.swift */; };
+		C32D6AE81DA98E6900D400B6 /* HostEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32D6AE71DA98E6900D400B6 /* HostEventViewController.swift */; };
+		C32D6AEA1DA99D5600D400B6 /* DynamicImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32D6AE91DA99D5600D400B6 /* DynamicImageView.swift */; };
+		C37269C01DA8AA4E000531FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37269BF1DA8AA4E000531FF /* AppDelegate.swift */; };
+		C37269C51DA8AA4E000531FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C37269C31DA8AA4E000531FF /* Main.storyboard */; };
+		C37269C71DA8AA4E000531FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C37269C61DA8AA4E000531FF /* Assets.xcassets */; };
+		C37269CA1DA8AA4E000531FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C37269C81DA8AA4E000531FF /* LaunchScreen.storyboard */; };
+		C37269D21DA8AB0C000531FF /* UploadPicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37269D11DA8AB0C000531FF /* UploadPicViewController.swift */; };
+		C37269D71DA8C55E000531FF /* SetVoiceKeyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37269D61DA8C55E000531FF /* SetVoiceKeyViewController.swift */; };
+		C37269D91DA8CE63000531FF /* ActivityIndicatorHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37269D81DA8CE63000531FF /* ActivityIndicatorHUD.swift */; };
+		C37269DB1DA8D6F4000531FF /* AlertPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37269DA1DA8D6F4000531FF /* AlertPresenter.swift */; };
+		C37269DD1DA8D70E000531FF /* CustomAlertPresentationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37269DC1DA8D70E000531FF /* CustomAlertPresentationType.swift */; };
+		C39DA1CB1DAA635900A3C30D /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39DA1CA1DAA635900A3C30D /* UIViewController.swift */; };
+		C3CD02F31DAA052100411E78 /* VerifyVoiceKeyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CD02F21DAA052100411E78 /* VerifyVoiceKeyViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3524AD163E0E16BE2B291676 /* Pods-SmartPass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartPass.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartPass/Pods-SmartPass.release.xcconfig"; sourceTree = "<group>"; };
+		3C4AE453F349C937282EE112 /* Pods-SmartPass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartPass.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartPass/Pods-SmartPass.debug.xcconfig"; sourceTree = "<group>"; };
+		809660D75F2F43E9FF8EF256 /* Pods_SmartPass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartPass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3043A171DAA27F90038E472 /* RegistrationSuccessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationSuccessViewController.swift; sourceTree = "<group>"; };
+		C30B340E1DA95A7D00CD315E /* ImageUploader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
+		C32D6AE11DA96D4600D400B6 /* PhotoColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoColor.swift; sourceTree = "<group>"; };
+		C32D6AE51DA98DC600D400B6 /* CreateEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateEventViewController.swift; sourceTree = "<group>"; };
+		C32D6AE71DA98E6900D400B6 /* HostEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostEventViewController.swift; sourceTree = "<group>"; };
+		C32D6AE91DA99D5600D400B6 /* DynamicImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicImageView.swift; sourceTree = "<group>"; };
+		C37269BC1DA8AA4D000531FF /* SmartPass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartPass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C37269BF1DA8AA4E000531FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C37269C41DA8AA4E000531FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C37269C61DA8AA4E000531FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C37269C91DA8AA4E000531FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C37269CB1DA8AA4E000531FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C37269D11DA8AB0C000531FF /* UploadPicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadPicViewController.swift; sourceTree = "<group>"; };
+		C37269D61DA8C55E000531FF /* SetVoiceKeyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetVoiceKeyViewController.swift; sourceTree = "<group>"; };
+		C37269D81DA8CE63000531FF /* ActivityIndicatorHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorHUD.swift; sourceTree = "<group>"; };
+		C37269DA1DA8D6F4000531FF /* AlertPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertPresenter.swift; sourceTree = "<group>"; };
+		C37269DC1DA8D70E000531FF /* CustomAlertPresentationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAlertPresentationType.swift; sourceTree = "<group>"; };
+		C39DA1CA1DAA635900A3C30D /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		C3CD02F21DAA052100411E78 /* VerifyVoiceKeyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyVoiceKeyViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C37269B91DA8AA4D000531FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D112308305D073A7D20576 /* Pods_SmartPass.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8754AC444631F10D71E0776F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C4AE453F349C937282EE112 /* Pods-SmartPass.debug.xcconfig */,
+				3524AD163E0E16BE2B291676 /* Pods-SmartPass.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C30B340D1DA95A6100CD315E /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				C37269DA1DA8D6F4000531FF /* AlertPresenter.swift */,
+				C30B340E1DA95A7D00CD315E /* ImageUploader.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		C37269B31DA8AA4D000531FF = {
+			isa = PBXGroup;
+			children = (
+				C37269BE1DA8AA4D000531FF /* SmartPass */,
+				C37269BD1DA8AA4D000531FF /* Products */,
+				8754AC444631F10D71E0776F /* Pods */,
+				E1A8195E770D46E817BEB485 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C37269BD1DA8AA4D000531FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C37269BC1DA8AA4D000531FF /* SmartPass.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C37269BE1DA8AA4D000531FF /* SmartPass */ = {
+			isa = PBXGroup;
+			children = (
+				C37269BF1DA8AA4E000531FF /* AppDelegate.swift */,
+				C30B340D1DA95A6100CD315E /* Protocols */,
+				C37269D81DA8CE63000531FF /* ActivityIndicatorHUD.swift */,
+				C37269DC1DA8D70E000531FF /* CustomAlertPresentationType.swift */,
+				C32D6AE11DA96D4600D400B6 /* PhotoColor.swift */,
+				C37269C31DA8AA4E000531FF /* Main.storyboard */,
+				C32D6AE91DA99D5600D400B6 /* DynamicImageView.swift */,
+				C37269D51DA8B903000531FF /* View Controllers */,
+				C37269C61DA8AA4E000531FF /* Assets.xcassets */,
+				C37269C81DA8AA4E000531FF /* LaunchScreen.storyboard */,
+				C37269CB1DA8AA4E000531FF /* Info.plist */,
+			);
+			path = SmartPass;
+			sourceTree = "<group>";
+		};
+		C37269D51DA8B903000531FF /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C37269D11DA8AB0C000531FF /* UploadPicViewController.swift */,
+				C37269D61DA8C55E000531FF /* SetVoiceKeyViewController.swift */,
+				C32D6AE51DA98DC600D400B6 /* CreateEventViewController.swift */,
+				C32D6AE71DA98E6900D400B6 /* HostEventViewController.swift */,
+				C3CD02F21DAA052100411E78 /* VerifyVoiceKeyViewController.swift */,
+				C3043A171DAA27F90038E472 /* RegistrationSuccessViewController.swift */,
+				C39DA1CA1DAA635900A3C30D /* UIViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		E1A8195E770D46E817BEB485 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				809660D75F2F43E9FF8EF256 /* Pods_SmartPass.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C37269BB1DA8AA4D000531FF /* SmartPass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C37269CE1DA8AA4E000531FF /* Build configuration list for PBXNativeTarget "SmartPass" */;
+			buildPhases = (
+				47252843F1945A7FEBB75B54 /* [CP] Check Pods Manifest.lock */,
+				C37269B81DA8AA4D000531FF /* Sources */,
+				C37269B91DA8AA4D000531FF /* Frameworks */,
+				C37269BA1DA8AA4D000531FF /* Resources */,
+				E95B0FE25BB496CA23206B3F /* [CP] Embed Pods Frameworks */,
+				A88348C7661CCFB1E00AD9F9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartPass;
+			productName = SmartPass;
+			productReference = C37269BC1DA8AA4D000531FF /* SmartPass.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C37269B41DA8AA4D000531FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Cassidy Wang";
+				TargetAttributes = {
+					C37269BB1DA8AA4D000531FF = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7J6V48N9GQ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C37269B71DA8AA4D000531FF /* Build configuration list for PBXProject "SmartPass" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C37269B31DA8AA4D000531FF;
+			productRefGroup = C37269BD1DA8AA4D000531FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C37269BB1DA8AA4D000531FF /* SmartPass */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C37269BA1DA8AA4D000531FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C37269CA1DA8AA4E000531FF /* LaunchScreen.storyboard in Resources */,
+				C37269C71DA8AA4E000531FF /* Assets.xcassets in Resources */,
+				C37269C51DA8AA4E000531FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		47252843F1945A7FEBB75B54 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A88348C7661CCFB1E00AD9F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartPass/Pods-SmartPass-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E95B0FE25BB496CA23206B3F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartPass/Pods-SmartPass-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C37269B81DA8AA4D000531FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C39DA1CB1DAA635900A3C30D /* UIViewController.swift in Sources */,
+				C30B340F1DA95A7D00CD315E /* ImageUploader.swift in Sources */,
+				C32D6AE81DA98E6900D400B6 /* HostEventViewController.swift in Sources */,
+				C37269DB1DA8D6F4000531FF /* AlertPresenter.swift in Sources */,
+				C37269D91DA8CE63000531FF /* ActivityIndicatorHUD.swift in Sources */,
+				C3CD02F31DAA052100411E78 /* VerifyVoiceKeyViewController.swift in Sources */,
+				C37269D21DA8AB0C000531FF /* UploadPicViewController.swift in Sources */,
+				C32D6AE21DA96D4600D400B6 /* PhotoColor.swift in Sources */,
+				C3043A181DAA27F90038E472 /* RegistrationSuccessViewController.swift in Sources */,
+				C37269D71DA8C55E000531FF /* SetVoiceKeyViewController.swift in Sources */,
+				C32D6AE61DA98DC600D400B6 /* CreateEventViewController.swift in Sources */,
+				C37269C01DA8AA4E000531FF /* AppDelegate.swift in Sources */,
+				C37269DD1DA8D70E000531FF /* CustomAlertPresentationType.swift in Sources */,
+				C32D6AEA1DA99D5600D400B6 /* DynamicImageView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C37269C31DA8AA4E000531FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C37269C41DA8AA4E000531FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C37269C81DA8AA4E000531FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C37269C91DA8AA4E000531FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C37269CC1DA8AA4E000531FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 7J6V48N9GQ;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C37269CD1DA8AA4E000531FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 7J6V48N9GQ;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C37269CF1DA8AA4E000531FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C4AE453F349C937282EE112 /* Pods-SmartPass.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7J6V48N9GQ;
+				INFOPLIST_FILE = SmartPass/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.cassidywang.SmartPass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C37269D01DA8AA4E000531FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3524AD163E0E16BE2B291676 /* Pods-SmartPass.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7J6V48N9GQ;
+				INFOPLIST_FILE = SmartPass/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.cassidywang.SmartPass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C37269B71DA8AA4D000531FF /* Build configuration list for PBXProject "SmartPass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C37269CC1DA8AA4E000531FF /* Debug */,
+				C37269CD1DA8AA4E000531FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C37269CE1DA8AA4E000531FF /* Build configuration list for PBXNativeTarget "SmartPass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C37269CF1DA8AA4E000531FF /* Debug */,
+				C37269D01DA8AA4E000531FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C37269B41DA8AA4D000531FF /* Project object */;
+}
