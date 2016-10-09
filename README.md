@@ -16,9 +16,9 @@ For hosts, create an event and distribute event IDs to those interested in atten
 If you've registered for an event or purchased a spot on the bus ahead of time, it's as easy as strolling right in. Facial recognition will check you in, and if the algorithm's confidence level is less than satisfactory, you may be prompted to say your key word to confirm your place.
 
 ## Why is this Important?
-Time is the most valuable resource. In bustling cities, seconds add up on buses and subways, and it's best to clear your mind
-
+Time is the most valuable resource. When you have to wait in line or take time to display a ticket or QR code, those seconds add up and the delay propagates to those around you. Especially in busy metropolitan areas, these delays cause people to be late to school or work; by expediting the day-to-day processes, we envision a fluid, more productive society.
 
 ## Future Directions
-Saved user profiles – disk persistence using Realm.
-SmartPass would become an even more powerful tool by enabling users to pay for events or services in advance.
+*Saved user profiles: implement disk persistence on mobile using Realm.
+*Register for events on mobile: mobile app currently possesses capability but cannot make the respective changes in the database.
+*SmartPass would become an even more powerful tool by enabling users to pay for events or services in advance. We considered using Capital One's Nessie API for this purpose.
