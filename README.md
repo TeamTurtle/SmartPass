@@ -8,7 +8,7 @@ SmartPass uses Microsoft's Cognitive Services FaceAPI to detect and identify peo
 ## How to Use SmartPass
 
 ### Before Heading Out
-For users, register for an event online, upload a picture of your face, and tell us your favorite word. Congrats, you're all set!
+For users, register for an event online (Over here: http://smartpass-145909.appspot.com/), upload a picture of your face, and tell us your favorite word. Congrats, you're all set!
 
 For hosts, create an event and distribute event IDs to those interested in attending. The app will take care of checking in on site.
 
